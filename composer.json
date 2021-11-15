@@ -2,6 +2,7 @@
     "name": "haskelldev/buscador-cursos",
     "description": "Projeto que busca os cursos no site da Alura",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jimmie Haskell",
@@ -47,5 +48,8 @@
     },
     "scripts-descriptions": {
         "vrf": "Roda as verificações do código. PHAN, PHPCS e PHPUnit"
-    }
+    },
+    "bin": [
+        "buscar-cursos.php"
+    ]
 }
