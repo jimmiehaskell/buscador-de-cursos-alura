@@ -14,5 +14,17 @@
         "psr/log": "^3.0",
         "symfony/css-selector": "^5.3",
         "laminas/laminas-httphandlerrunner": "^2.1"
+    },
+    "autoload": {
+        "classmap": [],
+        "files": [
+            "config/config.php"
+        ],
+        "psr-4": {
+            "HaskellDev\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
