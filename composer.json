@@ -1,0 +1,18 @@
+{
+    "name": "haskelldev/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jimmie Haskell",
+            "email": "haskell4228@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4",
+        "symfony/dom-crawler": "^4.2",
+        "psr/log": "^3.0",
+        "symfony/css-selector": "^5.3",
+        "laminas/laminas-httphandlerrunner": "^2.1"
+    }
+}
