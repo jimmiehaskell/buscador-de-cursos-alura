@@ -50,6 +50,6 @@
         "vrf": "Roda as verificações do código. PHAN, PHPCS e PHPUnit"
     },
     "bin": [
-        "buscar-cursos.php"
+        "buscar-cursos"
     ]
 }
